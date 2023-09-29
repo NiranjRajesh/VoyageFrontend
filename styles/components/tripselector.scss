@@ -1,0 +1,52 @@
+.trip-selector {
+    padding: 1em;
+    border-radius: 5px;
+    margin: 0 0;
+
+  }
+  
+  .radio-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 5px; // gap: 20px; /* Adjust the gap between radio options */
+    justify-content: space-between;
+    margin-bottom: 1rem;
+
+    input[type="radio"] {
+      margin-right: 0.3rem;
+      appearance: none;
+      width: 15px;
+      height: 15px;
+      border: 2px solid #3c88ef;
+      border-radius: 50%;
+      outline: none;
+
+    //margin-right: 5px;
+
+    cursor: pointer;
+
+    flex: 0 0 auto; /* Prevent radio button from growing */
+  }
+
+  & input[type="radio"]:checked {
+    background-color: #3c88ef;
+  }
+}
+.radio-option {
+  display: flex;
+  align-items: center;
+  margin-right: 10px; /* Add space between radio button and label */
+}
+label {
+  font-size: 0.85rem;
+
+  flex: 1; /* Allow label to expand and fill available space */
+}
+  
+.trip-btn{
+  display: flex;
+  align-items: center;
+}
+  

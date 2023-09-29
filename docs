@@ -1,0 +1,43 @@
+Week 1
+
+•Analysed the problem statement.
+
+•Brainstormed our ideas.
+
+•Installed required applications.
+
+•Collected JSON file of airport , airline and route details.
+
+•Fetched airport ,airline and route details and saved data in the designed database using APIs
+
+Week 2
+
+•Developed APIs for fetching airline and airport using the IATA code.
+
+•Developed an API to list best recommendations.
+
+•Added filters for accepting multiple class and airline types.
+
+•Designed flight recommendation end points ,which can handle multiple.
+
+•Developed an API to list the airport based on the input search string.
+
+•Developed an APIs to get detailed itinerary information.  
+
+Week 3
+
+•Started front-end and designed the wireframe.
+
+•Wireframe designed using Miro.
+
+•Used python and fast API as framework along with Java and Spring Boot.
+
+•Started front-end coding
+
+•Used React as Front-end library.
+
+•Pushed the code to GitHub
+
+
+---------------------------------------------------------------------------
+  Miro link: https://miro.com/app/board/uXjVMoFVZ8o=/?share_link_id=471397167064#tpicker-content

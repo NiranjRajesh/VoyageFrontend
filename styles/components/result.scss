@@ -1,0 +1,85 @@
+.search-route{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.search-result-heading{
+    & h4{
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 2em;
+    }
+}
+.t-airport{
+    color:#3A3C3E;
+    font-size: 0.85rem;
+}
+.t-airport-title{
+    color:#3A3C3E;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.t-airport-iata{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.from-airport-container,.to-airport-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1em;
+    margin-bottom: 2em;
+}
+.card-img{
+    height:20px;
+    width:20px;
+}
+
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.page-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+  
+    & button{
+        padding:1em 1.5em;
+        background-color:#3C88EF;
+        font-size: 0.85rem;
+        font-weight: 500;
+        letter-spacing: 2px;
+        color:#ffffff;
+        border-radius: 5px;
+
+    }
+   
+}
+.trip-button-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    margin-bottom: 2em;
+}
+.route-results{
+display: flex;
+flex-direction: column;
+
+}
+
+.no-route-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    & h2{
+        font-size: 1.3rem;
+        font-weight: 500;
+        color:#3A3C3E;
+    }
+}

@@ -1,0 +1,210 @@
+
+.travel-input-container {
+    display: flex;
+  
+    flex-direction: column;
+  
+   
+  
+    min-width: 400px;
+  
+    position: relative;
+  
+    & label {
+      font-size: 0.75rem;
+  
+      color: #6b6e72;
+  
+      font-weight: 600;
+  
+      margin-bottom: 0.5em;
+    }
+  
+    & input[type="text"] {
+      padding: 1em 1.5em;
+  
+      background-color: #f5f7fa;
+  
+      border-radius: 5px;
+  
+      margin-bottom: 2em;
+  
+      color: #6b6e72;
+      padding-left:4em;
+      &:hover{
+
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  
+      }
+
+      &:focus{
+        border: 1px solid #3c88ef;
+      }
+    }
+  }
+  
+  .travel-calender-container {
+    display: flex;
+  
+    & input[type="text"] {
+      padding: 1em 1.5em;
+  
+      position: relative;
+  
+      background-color: #f5f7fa;
+
+      border-radius: 5px;
+  
+      margin-right: 1em;
+      &:hover{
+
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  
+      }
+    }
+  
+    & label {
+      font-size: 0.75rem;
+  
+      color: #6b6e72;
+  
+      font-weight: 600;
+  
+      margin-bottom: 0.5em;
+    }
+  
+    & .search-btn {
+      padding: 1em 1.5em;
+  
+      background-color: #6fd279;
+  
+      border-radius: 5px;
+  
+      width: 70%;
+  
+      min-width: 200px;
+  
+      font-weight: 600;
+  
+      color: #ffffff;
+  
+      margin-top: 1.4em;
+      transition: 600ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      &:hover{
+        background-color: #62b76a;
+     box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+
+      }
+    }
+  }
+.trip-container {
+    padding: 1em;
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: center;
+  
+    .roundButton {
+      background-color: #3c88ef;
+  
+      padding: 1em 1.5em;
+  
+      color: #ffffff;
+  
+      border-radius: 10px;
+  
+      font-weight: 600;
+    }
+  }
+
+  .suggestions-container {
+    position: absolute;
+  
+    top: 70px;
+  
+    border-radius: 5px;
+  
+    z-index: 10;
+  
+    width: 100%;
+  
+    min-width: 200px;
+  
+    
+  
+    background-color: white;
+  
+    border: 1px solid rgb(206, 201, 201);
+  
+ 
+  
+    display: flex;
+  
+    flex-direction: column;
+  
+    align-items: flex-start;
+  
+    & .suggestions {
+      cursor: pointer;
+  
+      display: flex;
+  
+      align-items: center;
+  
+      justify-content: space-between;
+  
+      width: 100%;
+  
+      padding: 0.5em 0.7em;
+      font-size: 0.85rem;
+      color: #4b4b4b;
+  
+   
+  
+  
+  
+      &:hover {
+        background-color: #9bbcea;
+  
+        color: #ffffff;
+      }
+    }
+  }
+  
+  .placeholder-icon {
+    position: absolute;
+  
+    top: 50%;
+  
+    transform: translateY(-50%);
+  
+    left: 20px;
+  
+    color: #3c88ef;
+  }
+  
+  .iata-cur {
+    position: absolute;
+  
+    top: 45%;
+  
+    transform: translateY(-50%);
+    font-size: 0.85rem;
+    font-weight: 600;
+  
+    right: 20px;
+  }
+  
+
+    .search-suggestion {
+      display: flex;
+  
+      flex-wrap: wrap; /* Allow cards to wrap to the next line */
+  
+      justify-content: space-between; /* Space cards evenly in the row */
+  
+      margin-bottom: 20px; /* Add some spacing between rows of cards */
+    }
+  

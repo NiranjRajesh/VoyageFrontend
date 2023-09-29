@@ -1,0 +1,102 @@
+.airline-container{
+background-color:#F4F7FA;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 0;
+    text-align: left;
+    padding: 10px;
+   
+}
+.airlineSelection{
+  & h4{
+    margin-bottom: 1em;
+  }
+}
+
+.airline-list {
+    list-style-type: none;
+    padding: 0;
+    height: 7rem;
+    overflow-y: scroll;
+  }
+  
+  .airline-item {
+    margin-bottom: 10px;
+  }
+  
+  .airline-label {
+    display: flex;
+  
+    align-items: center;
+    justify-content: space-around;
+
+    & img{
+      width:30px;
+      height:30px;
+      margin-right: 1em;
+    }
+
+    & .airline-detail{
+      display: flex;
+      align-items: center;
+      font-size: 0.85rem;
+      font-weight: 600;
+      width: 80%;
+      & span{
+        margin-right: 1em;
+      }
+    }
+  }
+  
+  .custom-checkbox {
+   display: none;
+  }
+  
+  .checkmark {
+    width: 1rem;
+  
+    height: 1rem;
+  
+    border-radius: 50%; /* Create a circular shape */
+  
+    border: 2px solid #007bff; /* Border color for the circle */
+  
+    display: inline-block;
+  
+    position: relative;
+  
+    cursor: pointer;
+  
+    margin-right: 1rem;
+  }
+  
+  /* Style for the checkmark when checkbox is checked */
+  
+  .custom-checkbox:checked + .checkmark::before {
+    content: "";
+  
+    width: 1rem;
+  
+    height: 1rem;
+  
+    border-radius: 50%;
+  
+    background-color: #007bff; /* Color of the checkmark */
+  
+    position: absolute;
+  
+    top: 50%;
+  
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+  
+    display: block;
+  }
+  
+
+//   input[type="checkbox"]:checked + label {
+//     font-weight: bold; /* Make the text bold for selected airlines */
+
+//     color: #007bff; /* Change text color for selected airlines */
+//   }

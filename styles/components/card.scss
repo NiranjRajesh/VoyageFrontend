@@ -1,0 +1,91 @@
+.card {
+  border-radius: 5px;
+  background-color: #ffffff;
+  height: 200px;
+  padding: 1.3em;
+  margin-bottom: 2em;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  transition: 800ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  &:hover{
+    transform: scale(0.9);
+ 
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+
+  }
+
+}
+
+
+.card-header {
+  display: flex;
+  font-size: 1rem;
+  font-weight: 200;
+  align-items: center;
+  justify-content: flex-start;
+  color: #313131;
+  margin-bottom: 1em;
+}
+
+.card-img {
+  width: 30px;
+  height: 30px;
+  margin-right: 1em;
+}
+
+.card-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  &-transition{
+    display: flex;
+    align-items: center;
+  }
+  .flight-icon{
+    height: 36px;
+    width:36px;
+   transform: rotate(90deg);
+   color: #4591f6;
+   margin:0 0.5em;
+  }
+  hr{
+    border:none;
+    border-top:2px dashed gray;
+    color:#fff;
+    height:1px;
+    width:50%;
+  }
+  .dashed-line{
+    width:50%;
+
+    border:2px dashed #313131;
+    
+  
+  }
+  &-city{
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #6f6d6d;
+  }
+  
+  &-iata{
+    font-weight:700;
+    font-size: 2rem;
+  }
+  &-m{
+    display: flex;
+    flex-direction: column;    text-align: center;
+    font-weight: 600;
+    font-size: 0.85rem;
+    
+
+    
+
+  }
+   
+  &-l,&-r{
+    display: flex;
+    flex-direction: column;
+  }
+}
